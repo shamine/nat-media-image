@@ -5,7 +5,9 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
 import android.graphics.RectF;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.provider.MediaStore;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -15,6 +17,11 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;
+import android.widget.Toast;
+
+import com.instapp.nat.media.image.R;
+import com.lxj.xpopup.XPopup;
+import com.lxj.xpopup.interfaces.OnSelectListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -84,7 +91,7 @@ public class ZoomImageView extends ImageView implements ViewTreeObserver.OnGloba
         this(context, attrs, 0);
     }
 
-    public ZoomImageView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public ZoomImageView(final Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         //setScaleType(ScaleType.MATRIX);
@@ -115,6 +122,25 @@ public class ZoomImageView extends ImageView implements ViewTreeObserver.OnGloba
                     return true;
                 }
                 return false;
+            }
+            @Override
+            public void onLongPress(MotionEvent e) {
+                super.onLongPress(e);
+
+                XPopup.get(context).asBottomList(null, new String[]{context.getString(R.string.mis_save_photo_to_gallery)}, new OnSelectListener() {
+                    @Override
+                    public void onSelect(int position, String text) {
+                        if(position==0){
+                            Drawable drawable = ZoomImageView.this.getDrawable();
+                            if (!(drawable instanceof BitmapDrawable)) {
+                                return;
+                            }
+                            Bitmap bitmap = ((BitmapDrawable) drawable).getBitmap();
+                            MediaStore.Images.Media.insertImage(context.getContentResolver(),bitmap,null,null);
+                            Toast.makeText(context,R.string.mis_photo_has_saved,Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                }).show();
             }
         });
         setOnTouchListener(this);

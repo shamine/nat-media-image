@@ -15,4 +15,6 @@
     <string name="mis_permission_rationale">Storage read permission is needed to pick files.</string>
     <string name="mis_permission_rationale_write_storage">Storage write permission is needed to save the image.</string>
     <string name="app_name">Media-image</string>
+    <string name="mis_save_photo_to_gallery">Save Photo</string>
+    <string name="mis_photo_has_saved">has been saved to gallery!</string>
 </resources>

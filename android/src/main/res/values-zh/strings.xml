@@ -13,4 +13,6 @@
     <string name="mis_permission_dialog_cancel">拒绝</string>
     <string name="mis_permission_rationale">浏览图片需要您提供浏览存储的权限</string>
     <string name="mis_permission_rationale_write_storage">保存拍照图片需要您提供写存储权限</string>
+    <string name="mis_save_photo_to_gallery">保存图片</string>
+    <string name="mis_photo_has_saved">已保存到系统相册！</string>
 </resources>

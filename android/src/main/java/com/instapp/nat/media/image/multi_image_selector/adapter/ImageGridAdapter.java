@@ -1,4 +1,4 @@
-package com.nat.media_image.multi_image_selector.adapter;
+package com.instapp.nat.media.image.multi_image_selector.adapter;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -10,9 +10,9 @@ import android.view.WindowManager;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
-import com.nat.media_image.R;
-import com.nat.media_image.multi_image_selector.MultiImageSelectorFragment;
-import com.nat.media_image.multi_image_selector.bean.Image;
+import com.instapp.nat.media.image.R;
+import com.instapp.nat.media.image.multi_image_selector.MultiImageSelectorFragment;
+import com.instapp.nat.media.image.multi_image_selector.bean.Image;
 import com.squareup.picasso.Picasso;
 
 import java.io.File;

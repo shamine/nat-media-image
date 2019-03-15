@@ -1,4 +1,4 @@
-package com.nat.media_image.multi_image_selector.bean;
+package com.instapp.nat.media.image.multi_image_selector.bean;
 
 import android.text.TextUtils;
 

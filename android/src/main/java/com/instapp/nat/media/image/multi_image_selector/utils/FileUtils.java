@@ -1,4 +1,4 @@
-package com.nat.media_image.multi_image_selector.utils;
+package com.instapp.nat.media.image.multi_image_selector.utils;
 
 import android.content.Context;
 import android.content.pm.PackageManager;

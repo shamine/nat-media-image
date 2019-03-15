@@ -1,4 +1,4 @@
-package com.nat.media_image.multi_image_selector;
+package com.instapp.nat.media.image.multi_image_selector;
 
 import android.Manifest;
 import android.app.Activity;
@@ -10,7 +10,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.widget.Toast;
 
-import com.nat.media_image.R;
+import com.instapp.nat.media.image.R;
 
 import java.util.ArrayList;
 

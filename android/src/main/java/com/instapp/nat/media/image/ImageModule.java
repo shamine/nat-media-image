@@ -1,4 +1,4 @@
-package com.nat.media_image;
+package com.instapp.nat.media.image;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,8 +10,8 @@ import android.os.Build;
 import android.os.Environment;
 import android.text.TextUtils;
 
-import com.nat.media_image.multi_image_selector.MultiImageSelector;
-import com.nat.media_image.multi_image_selector.MultiImageSelectorActivity;
+import com.instapp.nat.media.image.multi_image_selector.MultiImageSelector;
+import com.instapp.nat.media.image.multi_image_selector.MultiImageSelectorActivity;
 import com.squareup.okhttp.Callback;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;

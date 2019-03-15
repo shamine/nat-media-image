@@ -1,4 +1,4 @@
-package com.nat.media_image;
+package com.instapp.nat.media.image;
 
 /**
  * Created by xuqinchao on 17/2/7.

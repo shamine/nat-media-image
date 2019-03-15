@@ -1,4 +1,4 @@
-package com.nat.media_image;
+package com.instapp.nat.media.image;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.nat.media_image.zoomimageview.ZoomImageView;
+import com.instapp.nat.media.image.zoomimageview.ZoomImageView;
 import com.squareup.picasso.Picasso;
 
 import org.greenrobot.eventbus.EventBus;

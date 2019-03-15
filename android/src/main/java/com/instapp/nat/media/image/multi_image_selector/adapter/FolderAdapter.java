@@ -1,4 +1,4 @@
-package com.nat.media_image.multi_image_selector.adapter;
+package com.instapp.nat.media.image.multi_image_selector.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.nat.media_image.R;
-import com.nat.media_image.multi_image_selector.bean.Folder;
+import com.instapp.nat.media.image.R;
+import com.instapp.nat.media.image.multi_image_selector.bean.Folder;
 import com.squareup.picasso.Picasso;
 
 import java.io.File;

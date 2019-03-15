@@ -1,9 +1,6 @@
-package com.nat.media_image.multi_image_selector.utils;
-
-import android.media.ExifInterface;
+package com.instapp.nat.media.image.multi_image_selector.utils;
 
 import java.io.File;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;

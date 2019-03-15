@@ -1,7 +1,6 @@
-package com.nat.media_image.multi_image_selector;
+package com.instapp.nat.media.image.multi_image_selector;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -11,10 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
 
-import com.nat.media_image.R;
+import com.instapp.nat.media.image.R;
 
 import java.io.File;
 import java.util.ArrayList;

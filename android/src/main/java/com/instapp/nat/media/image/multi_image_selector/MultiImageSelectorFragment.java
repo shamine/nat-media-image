@@ -1,4 +1,4 @@
-package com.nat.media_image.multi_image_selector;
+package com.instapp.nat.media.image.multi_image_selector;
 
 import android.Manifest;
 import android.app.Activity;
@@ -34,13 +34,13 @@ import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.nat.media_image.R;
-import com.nat.media_image.multi_image_selector.adapter.FolderAdapter;
-import com.nat.media_image.multi_image_selector.adapter.ImageGridAdapter;
-import com.nat.media_image.multi_image_selector.bean.Folder;
-import com.nat.media_image.multi_image_selector.bean.Image;
-import com.nat.media_image.multi_image_selector.utils.FileUtils;
-import com.nat.media_image.multi_image_selector.utils.ScreenUtils;
+import com.instapp.nat.media.image.R;
+import com.instapp.nat.media.image.multi_image_selector.adapter.FolderAdapter;
+import com.instapp.nat.media.image.multi_image_selector.adapter.ImageGridAdapter;
+import com.instapp.nat.media.image.multi_image_selector.bean.Folder;
+import com.instapp.nat.media.image.multi_image_selector.bean.Image;
+import com.instapp.nat.media.image.multi_image_selector.utils.FileUtils;
+import com.instapp.nat.media.image.multi_image_selector.utils.ScreenUtils;
 import com.squareup.picasso.Picasso;
 
 import java.io.File;

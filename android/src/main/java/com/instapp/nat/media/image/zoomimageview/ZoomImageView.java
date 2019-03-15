@@ -1,4 +1,4 @@
-package com.nat.media_image.zoomimageview;
+package com.instapp.nat.media.image.zoomimageview;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

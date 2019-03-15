@@ -1,9 +1,9 @@
-package com.nat.media_image;
+package com.instapp.nat.media.image;
 
 import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
-import com.nat.media_image.zoomimageview.ZoomImageView;
+import com.instapp.nat.media.image.zoomimageview.ZoomImageView;
 import java.util.ArrayList;
 
 

@@ -1,4 +1,4 @@
-package com.nat.media_image.zoomimageview;
+package com.instapp.nat.media.image.zoomimageview;
 
 import android.content.Context;
 import android.graphics.Bitmap;

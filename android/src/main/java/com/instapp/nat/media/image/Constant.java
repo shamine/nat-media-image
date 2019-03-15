@@ -1,4 +1,4 @@
-package com.nat.media_image;
+package com.instapp.nat.media.image;
 
 import android.os.Environment;
 

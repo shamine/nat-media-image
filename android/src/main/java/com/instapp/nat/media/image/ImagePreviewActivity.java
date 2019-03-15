@@ -92,7 +92,7 @@ public class ImagePreviewActivity extends AppCompatActivity {
             ZoomImageView zoomImageView = new ZoomImageView(this);
             mDatas.add(zoomImageView);
 
-            if (mPaths[i].startsWith("http://") || mPaths[i].equals("https://")) {
+            if (mPaths[i].startsWith("http://") || mPaths[i].startsWith("https://")) {
                 Picasso.with(this)
                         .load(mPaths[i])
                         .into(zoomImageView);
